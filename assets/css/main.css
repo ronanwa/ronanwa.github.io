@@ -4154,3 +4154,11 @@ input, select, textarea {
 		}
 
 	}
+
+	.indent {
+		text-indent: 30px;
+	}
+
+	.quoted-author {
+		text-align: right;
+	}
