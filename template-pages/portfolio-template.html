@@ -84,24 +84,24 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Feel free to reach out to me anytime of day on anything. I am always open to starting a conversation, just let me know.</p>
+							<p>Feel free to reach out to me about anything, anytime of day. I am always happy to connect, and I look forward to hearing from you!</p>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<label for="name-contact">Name</label>
+										<input type="text" name="name" id="name-contact" value=""/>
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<label for="email-contact">Email</label>
+										<input type="email" name="email" id="email-contact" value="" />
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<label for="message-contact">Message</label>
+										<textarea name="message" id="message-contact" rows="4" value=""></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><button id="submit-contact" type="button" value="Send Message" />Send Message</button></li>
 								</ul>
 							</form>
 							<ul class="contact">
@@ -110,12 +110,9 @@
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/ronanwallace/" target="_blank">Ronan Wallace</a></li>
 								<li class="icon brands fa-github"><a href="https://github.com/ronanwa" target="_blank">@ronanwa</a></li>
 								<!--								<li class="icon solid fa-phone">(000) 000-0000</li>-->
-								<!--								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>-->
-								<!--								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>-->
-								<!--								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>-->
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Ronan Wallace - All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
@@ -129,6 +126,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://smtpjs.com/v3/smtp.js"></script>
+			<script src="assets/js/contact.js"></script>
+			<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 	</body>
 </html>
