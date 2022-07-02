@@ -120,6 +120,31 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+		p.about-main-line {
+			text-align: left;
+		}
+
+		p.about-sub-line {
+			text-align: left;
+			margin-top: -30px;
+			padding-left: 20px;
+		}
+
+		span.right-align-text {
+			float: right;
+		}
+
+		img#macalester-logo-education {
+			height: 25%;
+			width: 25%;
+			float: left;
+			margin-right: 3%;
+		}
+
+		h3#background-education {
+			margin-top: 10%;
+		}
+
 /* Type */
 
 	body, input, select, textarea {
