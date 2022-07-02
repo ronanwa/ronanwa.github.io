@@ -3569,6 +3569,10 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
+		p#index-cv {
+			margin-top: -20px;
+		}
+
 /* Wrapper */
 
 	#wrapper > header {
