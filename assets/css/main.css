@@ -122,6 +122,7 @@ input, select, textarea {
 
 		p.about-main-line {
 			text-align: left;
+			padding-top: 10px;
 		}
 
 		p.about-sub-line {
@@ -135,15 +136,17 @@ input, select, textarea {
 		}
 
 		img#macalester-logo-education {
-			height: 25%;
-			width: 25%;
+			height: 150px;
+			width: 150px;
 			float: left;
-			margin-right: 3%;
+			margin-right: 20px;
+			padding-top: 5px;
 		}
 
 		h3#background-education {
 			margin-top: 10%;
 		}
+
 
 /* Type */
 
