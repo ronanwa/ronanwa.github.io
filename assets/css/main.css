@@ -146,6 +146,16 @@ input, select, textarea {
 			margin-top: 10%;
 		}
 
+		p.portfolio-sub-line-right {
+			text-align: right;
+			margin-top: -30px;
+		}
+
+		p.portfolio-sub-line-left {
+			text-align: left;
+			margin-top: -30px;
+		}
+
 
 /* Type */
 
@@ -3055,7 +3065,7 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: #284841;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3911,6 +3921,123 @@ input, select, textarea {
 
 				.wrapper.spotlight.style3:after {
 					box-shadow: inset 0 -1px 0 0 #1c332f, 0 1px 0 0 #1c332f;
+				}
+
+
+			.wrapper.spotlight-portfolio {
+				background-color: #365850;
+			}
+
+				.wrapper.spotlight-portfolio:before, .wrapper.spotlight-portfolio:after {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23365850%3B' /%3E%3C/svg%3E");
+				}
+
+				.wrapper.spotlight-portfolio:before {
+					box-shadow: inset 0 -1px 0 0 #365850, 0 1px 0 0 #365850;
+				}
+
+				.wrapper.spotlight-portfolio:after {
+					box-shadow: inset 0 -1px 0 0 #365850, 0 1px 0 0 #365850;
+				}
+
+				.wrapper.spotlight-portfolio .inner {
+					display: -moz-flex;
+					display: -webkit-flex;
+					display: -ms-flex;
+					display: flex;
+					-moz-align-items: center;
+					-webkit-align-items: center;
+					-ms-align-items: center;
+					align-items: center;
+					-moz-flex-direction: row;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
+				}
+
+				.wrapper.spotlight-portfolio .image {
+					border-radius: 100%;
+					margin: 0 3em 2em 0;
+					width: 22em;
+					overflow: hidden;
+					-ms-flex: 1;
+				}
+
+				.wrapper.spotlight-portfolio .image img {
+					border-radius: 100%;
+					width: 100%;
+				}
+
+				.wrapper.spotlight-portfolio .content {
+					width: 100%;
+					-ms-flex: 2;
+				}
+
+				.wrapper.spotlight-portfolio:nth-child(2n - 1) .inner {
+					-moz-flex-direction: row-reverse;
+					-webkit-flex-direction: row-reverse;
+					-ms-flex-direction: row-reverse;
+					flex-direction: row-reverse;
+					text-align: right;
+				}
+
+				.wrapper.spotlight-portfolio:nth-child(2n - 1) .image {
+					margin: 0 0 2em 3em;
+				}
+
+				.wrapper.spotlight-portfolio.style2 {
+					background-color: #28423c;
+				}
+
+				.wrapper.spotlight-portfolio.style2:before {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2328423c%3B' /%3E%3C/svg%3E");
+				}
+
+				.wrapper.spotlight-portfolio.style2:after {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 0,0 100,100' style='fill:%2328423c%3B' /%3E%3C/svg%3E");
+				}
+
+				.wrapper.spotlight-portfolio.style2:before {
+					box-shadow: inset 0 -1px 0 0 #28423c, 0 1px 0 0 #28423c;
+				}
+
+				.wrapper.spotlight-portfolio.style2:after {
+					box-shadow: inset 0 -1px 0 0 #28423c, 0 1px 0 0 #28423c;
+				}
+
+				.wrapper.spotlight-portfolio.style3 {
+					background-color: #1c332f;
+				}
+
+				.wrapper.spotlight-portfolio.style3:before {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 0,0 100,100' style='fill:%231c332f%3B' /%3E%3Cpolygon points='0,100 100,0 0,0' style='fill:%2328423c%3B' /%3E%3C/svg%3E");
+				}
+
+				.wrapper.spotlight-portfolio.style3:after {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 0,0 100,100' style='fill:%231c332f%3B' /%3E%3C/svg%3E");
+				}
+
+				.wrapper.spotlight-portfolio.style3:before {
+					box-shadow: inset 0 -1px 0 0 #1c332f, 0 1px 0 0 #1c332f;
+				}
+
+				.wrapper.spotlight-portfolio.style3:after {
+					box-shadow: inset 0 -1px 0 0 #1c332f, 0 1px 0 0 #1c332f;
+				}
+
+				.wrapper.spotlight-portfolio.style3 .image {
+					border-radius: 5px 5px 0 0;
+					display: block;
+					margin-bottom: 1.75em;
+					margin-left: -1.75em;
+					margin-top: -1.75em;
+					position: relative;
+					width: calc(100% + 3.5em);
+				}
+
+				.wrapper.spotlight-portfolio.style3 .image img {
+					border-radius: 5px 5px 0 0;
+					width: 100%;
 				}
 
 			.wrapper.spotlight.style4 {
