@@ -100,13 +100,28 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto,
- cover;
+		cover;
 		background-attachment: fixed,
- fixed;
+		fixed;
 		background-position: center,
- center;
+		center;
+	}
+
+	body#body-index {
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+	}
+
+	body#body-portfolio {
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/portfolio-bg.jpg");
+	}
+
+	body#body-travel {
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/himalayas-walking-01.jpg");
+	}
+
+	body#body-about {
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/about-bg.jpg");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3619,6 +3634,17 @@ input, select, textarea {
 				margin-bottom: -6.5em;
 			}
 
+			#banner {
+				padding: 7em 0 8.25em 0 ;
+				background-color: #2e3141;
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-size: auto,
+				cover;
+				background-position: center,
+				center;
+				margin-bottom: -6.5em;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3727,12 +3753,27 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
  0% 30%;
 			margin-bottom: -6.5em;
+		}
+
+		#wrapper > header#header-index {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		}
+
+		#wrapper > header#header-portfolio {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/portfolio-bg.jpg");
+		}
+
+		#wrapper > header#header-travel {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/himalayas-walking-01.jpg");
+		}
+
+		#wrapper > header#header-about {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/about-bg.jpg");
 		}
 
 	}
@@ -4273,7 +4314,7 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer .inner {
+	.footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -4291,20 +4332,20 @@ input, select, textarea {
 		width: 55em;
 	}
 
-		#footer .inner > * {
+		.footer .inner > * {
 			width: 100%;
 		}
 
-		#footer .inner form {
+		.footer .inner form {
 			margin: 0 3em 0 0;
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .contact {
+		.footer .inner .contact {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .copyright {
+		.footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
 			margin: 4em 0 2em 0;
@@ -4312,7 +4353,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			#footer .inner .copyright li {
+			.footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
@@ -4323,21 +4364,20 @@ input, select, textarea {
 				padding-left: 1em;
 			}
 
-				#footer .inner .copyright li:first-child {
+				.footer .inner .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
 
-				#footer .inner .copyright li a {
+				.footer .inner .copyright li a {
 					color: inherit;
 				}
 
 	@media screen and (max-width: 1280px) {
 
-		#footer {
+		.footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -4346,32 +4386,48 @@ input, select, textarea {
 			padding-top: 6.5em;
 		}
 
+		.footer#footer-index {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		}
+
+		.footer#footer-portfolio {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/portfolio-bg.jpg");
+		}
+
+		.footer#footer-travel {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/himalayas-walking-01.jpg");
+		}
+
+		.footer#footer-about {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/about-bg.jpg");
+		}
+
 	}
 
 	@media screen and (max-width: 980px) {
 
-		#footer {
+		.footer {
 			margin-top: -4.75em;
 			padding-top: 4.75em;
 		}
 
-			#footer .inner {
+			.footer .inner {
 				padding: 3em 3em 1em 3em ;
 				display: block;
 				width: 100%;
 			}
 
-				#footer .inner form {
+				.footer .inner form {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .contact {
+				.footer .inner .contact {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .copyright {
+				.footer .inner .copyright {
 					margin: 4em 0 2em 0;
 				}
 
@@ -4379,20 +4435,20 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		#footer {
+		.footer {
 			margin-top: -2.5em;
 			padding-top: 2.5em;
 		}
 
-			#footer .inner {
+			.footer .inner {
 				padding: 2em 2em 0.1em 2em ;
 			}
 
-				#footer .inner form {
+				.footer .inner form {
 					margin: 0 0 3em 0;
 				}
 
-				#footer .inner .contact {
+				.footer .inner .contact {
 					margin: 0 0 3em 0;
 				}
 
@@ -4400,14 +4456,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		#footer .inner .copyright li {
+		.footer .inner .copyright li {
 			border-left: 0;
 			display: block;
 			margin: 1em 0 0 0;
 			padding-left: 0;
 		}
 
-			#footer .inner .copyright li:first-child {
+			.footer .inner .copyright li:first-child {
 				margin-top: 0;
 			}
 
@@ -4415,7 +4471,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
-		#footer .inner {
+		.footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
