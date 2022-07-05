@@ -124,6 +124,10 @@ input, select, textarea {
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/about-bg.jpg");
 	}
 
+	body#body-generic {
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/generic-bg.jpg");
+	}
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -3776,6 +3780,10 @@ input, select, textarea {
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/about-bg.jpg");
 		}
 
+		#wrapper > header#header-generic {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/generic-bg.jpg");
+		}
+
 	}
 
 	@media screen and (max-width: 980px) {
@@ -4401,6 +4409,11 @@ input, select, textarea {
 		.footer#footer-about {
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/about-bg.jpg");
 		}
+
+		.footer#footer-generic {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/generic-bg.jpg");
+		}
+
 
 	}
 
