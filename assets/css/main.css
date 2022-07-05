@@ -3541,16 +3541,16 @@ input, select, textarea {
 
 /* Banner */
 
-	.banner {
+	#banner {
 		padding: 10em 0 4.75em 0 ;
 	}
 
-		.banner .inner {
+		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
 		}
 
-		.banner .logo {
+		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
 			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
@@ -3563,7 +3563,7 @@ input, select, textarea {
 			margin: 0 0 1.3em 0;
 		}
 
-			.banner .logo .icon {
+			#banner .logo .icon {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
@@ -3575,7 +3575,7 @@ input, select, textarea {
 				width: 2.25em;
 			}
 
-		.banner h2 {
+		#banner h2 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
@@ -3599,7 +3599,7 @@ input, select, textarea {
 			padding-bottom: 0.4em;
 		}
 
-		.banner p {
+		#banner p {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
@@ -3627,7 +3627,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			.banner {
+			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
@@ -3638,7 +3638,7 @@ input, select, textarea {
 				margin-bottom: -6.5em;
 			}
 
-			.banner {
+			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
@@ -3653,12 +3653,12 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.banner {
+			#banner {
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
 			}
 
-				.banner .inner {
+				#banner .inner {
 					width: 100%;
 				}
 
@@ -3666,30 +3666,30 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.banner {
+			#banner {
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
-				.banner .logo {
+				#banner .logo {
 					margin: 0 0 1em 0;
 				}
 
-					.banner .logo .icon {
+					#banner .logo .icon {
 						font-size: 1.5em;
 					}
 
-				.banner h2 {
+				#banner h2 {
 					font-size: 1.5em;
 				}
 
-				.banner p {
+				#banner p {
 					font-size: 0.8em;
 				}
 
 		}
 
-		body.is-preload .banner .logo {
+		body.is-preload #banner .logo {
 			-moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
 			-ms-transform: translateY(0.5em);
@@ -3697,7 +3697,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		body.is-preload .banner h2 {
+		body.is-preload #banner h2 {
 			opacity: 0;
 			-moz-transform: translateX(0.25em);
 			-webkit-transform: translateX(0.25em);
@@ -3709,7 +3709,7 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
-		body.is-preload .banner p {
+		body.is-preload #banner p {
 			opacity: 0;
 			-moz-transform: translateX(0.5em);
 			-webkit-transform: translateX(0.5em);
